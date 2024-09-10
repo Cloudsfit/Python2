@@ -1,0 +1,17 @@
+def diagnose_fault():
+    print("Troubleshooting guide:")
+    print("1. Check power cord")
+    print("2. Check RAM")
+    print("3. Check disk space")
+    choice = input("Enter the fault number: ")
+    
+    if choice == "1":
+        print("Check the power cord connection")
+    elif choice == "2":
+        print("Check RAM for any issues")
+    elif choice == "3":
+        print("Check disk space and free up space if necessary")
+    else:
+        print("Invalid choice")
+
+diagnose_fault()
